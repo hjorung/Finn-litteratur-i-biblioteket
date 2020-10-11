@@ -34,9 +34,9 @@ $(document).ready(function () {
         }
         //Worldcat
         if (
-            $('#worldcat').is(":checked")) {
-            //alert("WorldCat checked");
-            var newWorldcatURL = 'https://www.worldcat.org/search?q=' + searchstring;
+            $('#nb').is(":checked")) {
+            //alert("NB checked");
+            var newWorldcatURL = 'https://www.nb.no/search?q=' + searchstring;
             // Create the new tab
             chrome.tabs.create({
                 url: newWorldcatURL
@@ -46,7 +46,7 @@ $(document).ready(function () {
         if (
             $('#scholar').is(":checked")) {
             //alert("Google Scholar checked");
-            var newScholarURL = 'https://scholar.google.com/scholar?q=' + searchstring;
+            var newScholarURL = 'https://scholar.google.com/scholar?hl=no&q=' + searchstring;
             // Create the new tab
             chrome.tabs.create({
                 url: newScholarURL
@@ -54,9 +54,9 @@ $(document).ready(function () {
         }
         //Pubmed
         if (
-            $('#pubmed').is(":checked")) {
+            $('#bibsok').is(":checked")) {
             //alert("Google Scholar checked");
-            var newPubmedURL = 'https://ezproxy.someuniversity.com/login?url=https://www.ncbi.nlm.nih.gov/pubmed/?term=' + searchstring; // if you use EzProxy, modify the URL here. You may also remove the EzProxy prefix compeltely.
+            var newPubmedURL = 'https://bibsok.no/?mode=vt&&pubsok_txt_0=' + searchstring; 
             // Create the new tab
             chrome.tabs.create({
                 url: newPubmedURL
@@ -77,21 +77,21 @@ var searches = [
         url: "https://more-romsdal-felles.mikromarc.no/Mikromarc3/web/search.aspx?db=more-romsdal-felles&Unit=6463&SC=FT&LB=FT&IN=0&SU=0&SW=%s&source=LibrarySearchPluginPublic"
   },
     {
-        title: "Search in WorldCat",
-        url: "https://www.worldcat.org/search?q=%s"
+        title: "Search in Nasjonalbiblioteket",
+        url: "https://www.nb.no/search?q=%s"
   },
     {
         title: "Search in Google Scholar",
         url: "https://scholar.google.com/scholar?q=%s"
   },
     {
-        title: "Search in PubMed", // Again: remove or adapt your ezproxy URL
-        url: "https://ezproxy.someuniversity.com/login?url=https://www.ncbi.nlm.nih.gov/pubmed/?term=%s"
+        title: "Search in Biblioteksøk", // Again: remove or adapt your ezproxy URL
+        url: "https://bibsok.no/?mode=vt&&pubsok_txt_0=%s"
   }
 ];
 // Create a parent item and two children.
 var parent = chrome.contextMenus.create({
-    "title": "Search with Library Search Plugin Public", // Change the name here too!
+    "title": "Søk med Ulstein bibliotek", // Change the name here too!
     "id": "0",
     "contexts": ["selection"]
 });
