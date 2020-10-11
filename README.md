@@ -7,6 +7,6 @@ Du kan også bruke **kontekstmenyen ved å høgrteklikke på tekst i nettlesaren
 
 Dersom du ønsker å lage noko liknande, er det enklast å gå til [Leiden Search Assistant plugin](https://chrome.google.com/webstore/detail/leiden-search-assistant/dillijfbjhoiokfgjbngplcfggkkdnbn) som kan tilpassast alle bibliotek.
 
-Du kan teste verkyet via (https://chrome.google.com/webstore/detail/ulstein-bibliotek/ekempojhphpmblhfeklekjiflbnknlec?hl=no&authuser=0)
+Du kan teste verkyet via [Webstore](https://chrome.google.com/webstore/detail/ulstein-bibliotek/ekempojhphpmblhfeklekjiflbnknlec?hl=no&authuser=0)
 
 
