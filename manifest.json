@@ -1,7 +1,7 @@
 {
     "manifest_version": 2, // do not delete unless you know what you are doing! :)
 
-    "name": "Ulstein bibliotek", // Rename with your chosen title
+    "name": "Ulstein bibliotek", 
     "description": "Finn litteratur i bibliotekdatabasar", // Modify this text to explain what this plugin is about
     "version": "1.0.0",
     "author": "Giulio Menna, Leiden University Libraries", // I am the original author of this plugin, but you may change the name to your library's, or a department, etc. Remember to mention us somewhere as the source of this code though!
