@@ -1,6 +1,5 @@
 {
-    "manifest_version": 2, // do not delete unless you know what you are doing! :)
-
+    "manifest_version": 2, 
     "name": "Ulstein bibliotek",
     "description": "Search the your University Catalogue at any moment without leaving your current page!",
     "version": "1.0.0",
