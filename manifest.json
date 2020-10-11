@@ -1,8 +1,8 @@
 {
     "manifest_version": 2, 
     "name": "Ulstein bibliotek",
-    "description": "Search the your University Catalogue at any moment without leaving your current page!",
-    "version": "1.0.0",
+    "description": "Søk i bbiblitekkatalogen direkte frå nettlesaren",
+    "version": "1.0.1",
     "author": "Giulio Menna, Leiden University Libraries",
     "content_security_policy": "script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://code.jquery.com/ https://www.googletagmanager.com; object-src 'self'",
     "browser_action": {
