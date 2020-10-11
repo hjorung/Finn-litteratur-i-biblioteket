@@ -4,7 +4,7 @@
     "description": "Search the your University Catalogue at any moment without leaving your current page!",
     "version": "1.0.0",
     "author": "Giulio Menna, Leiden University Libraries",
-    "content_security_policy": "script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://code.jquery.com/ https://www.googletagmanager.com; object-src 'self'", // Delicate point: you may remove references to Google Analytics and Google Tag manager if you do not use them, but you will need code.jquery.com!
+    "content_security_policy": "script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://code.jquery.com/ https://www.googletagmanager.com; object-src 'self'",
     "browser_action": {
         "default_icon": "/images/icons/icon128.png", 
         "default_popup": "popup.html", 
