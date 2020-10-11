@@ -21,6 +21,5 @@
     "permissions": [
     "contextMenus", 
     "activeTab" 
-    // "https://www.googletagmanager.com/" if your library uses GTM, keep this here. If not, feel free to delete this line
   ]
 }
