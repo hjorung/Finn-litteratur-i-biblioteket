@@ -1,8 +1,8 @@
-# Library Search Plugin - Public
+# Ulstein bibliotek-søk - Public
 ![Library Search Plugin as used by Leiden University Libraries](https://lh3.googleusercontent.com/uVPC71HqPTtU7bHaMy9lpEFQDdNk4DOTiopz8Lc82Arm1qprqwjKh4lMPIDTGigZ3a6yvdGi7dI=w640-h400-e365 "Library Search Plugin as used by Leiden University Libraries")
-###### This plugin, as used by Leiden University Libraries
+###### This plugin, as used by Leiden University Libraries - tilpassa til Ulstein bibliotek
 
-The Library Search Plugin plugin allows users (students, researchers, etc.) to **search your library's catalogue, Google Scholar, WorldCat, or PubMed, without having to navigate to the respective websites first!**
+The Library Search Plugin plugin allows users (students, researchers, etc.) to **search your library's catalogue, Google Scholar, Nasjonalbiblioteket eller Biblioteksøk, without having to navigate to the respective websites first!**
 It also comes with a **neat context menu that allows users to select text, right-click, and search!**
 
 This is a clean version of the [Leiden Search Assistant plugin](https://chrome.google.com/webstore/detail/leiden-search-assistant/dillijfbjhoiokfgjbngplcfggkkdnbn) that can be adapted and used by any library. The plugin is compatible with Google Chrome, Opera, and Firefox.
