@@ -72,7 +72,7 @@ var searches = [
   },
     {
         title: "Search in Biblioteksøk", // Again: remove or adapt your ezproxy URL
-        url: "https://bibsok.no/?mode=vt&&pubsok_txt_0=%s"
+        url: "https://bibsok.no/?mode=vt&pubsok_txt_0=%s"
   }
 ];
 // Create a parent item and two children.
