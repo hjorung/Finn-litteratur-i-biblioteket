@@ -38,7 +38,7 @@ $(document).ready(function () {
                 url: newScholarURL
             });
         }
-        //Pubmed
+        //Biblioteksøk
         if (
             $('#bibsok').is(":checked")) {
             //alert("Google Scholar checked");
@@ -46,6 +46,16 @@ $(document).ready(function () {
             // Create the new tab
             chrome.tabs.create({
                 url: newPubmedURL
+            });
+        }
+         //Filmbib
+        if (
+            $('#scholar').is(":checked")) {
+            //alert("Filmbib checked");
+            var newScholarURL = 'https://filmbib.no/deepsearch?slang=1621&q=' + searchstring;
+            // Create the new tab
+            chrome.tabs.create({
+                url: newScholarURL
             });
         }
     });
@@ -59,19 +69,19 @@ $(document).ready(function () {
 //Search definitions. %s is the variable that gets replaced by the search term.
 var searches = [
     {
-        title: "Search in the Library Catalogue", // Same as above: edit to match your library's url. Modify &soruce as well at the end. Remeber to keep '%s'
+        title: "Søk i Ulstein bibliotek", // Same as above: edit to match your library's url. Modify &soruce as well at the end. Remeber to keep '%s'
         url: "https://more-romsdal-felles.mikromarc.no/Mikromarc3/web/search.aspx?db=more-romsdal-felles&Unit=6463&SC=FT&LB=FT&IN=0&SU=0&SW=%s&source=LibrarySearchPluginPublic"
   },
     {
-        title: "Search in Nasjonalbiblioteket",
+        title: "Søk i Nasjonalbiblioteket",
         url: "https://www.nb.no/search?q=%s"
   },
     {
-        title: "Search in Google Scholar",
+        title: "Søk i Google Scholar",
         url: "https://scholar.google.com/scholar?q=%s"
   },
     {
-        title: "Search in Biblioteksøk", // Again: remove or adapt your ezproxy URL
+        title: "Søk i Biblioteksøk", 
         url: "https://bibsok.no/?mode=vt&pubsok_txt_0=%s"
   }
 ];
