@@ -2,7 +2,7 @@
     "manifest_version": 2, 
     "name": "Søk i Ulstein bibliotek",
     "description": "Søk i biblitekkatalogen direkte frå nettlesaren",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Giulio Menna, Leiden University Libraries",
     "content_security_policy": "script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://code.jquery.com/ https://www.googletagmanager.com; object-src 'self'",
     "browser_action": {
@@ -13,7 +13,7 @@
     "icons": {
         "16": "/images/icons/icon16.png", 
         "48": "/images/icons/icon48.png",
-        "128": "/images/icons/icon128.png" 
+        "128": "/images/icons/icon128.PNG" 
     },
     "background": {
         "page": "popup.html" 
