@@ -18,7 +18,7 @@ $(document).ready(function () {
                 url: newLibraryURL
             });
         }
-        //Worldcat
+        //NB
         if (
             $('#nb').is(":checked")) {
             //alert("NB checked");
@@ -43,6 +43,16 @@ $(document).ready(function () {
             $('#bibsok').is(":checked")) {
             //alert("Google Scholar checked");
             var newPubmedURL = 'https://bibsok.no/?mode=vt&&pubsok_txt_0=' + searchstring; 
+            // Create the new tab
+            chrome.tabs.create({
+                url: newPubmedURL
+            });
+        }
+        //Oria
+        if (
+            $('#bibsok').is(":checked")) {
+            //alert("Google Scholar checked");
+            var newPubmedURL = 'https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&search_scope=blended_scope&vid=NB&offset=0&query=any,contains,' + searchstring; 
             // Create the new tab
             chrome.tabs.create({
                 url: newPubmedURL
