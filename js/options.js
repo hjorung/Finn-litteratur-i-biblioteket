@@ -50,7 +50,7 @@ $(document).ready(function () {
         }
         //Oria
         if (
-            $('#bibsok').is(":checked")) {
+            $('#oria').is(":checked")) {
             //alert("Google Scholar checked");
             var newPubmedURL = 'https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/search?tab=default_tab&search_scope=blended_scope&vid=NB&offset=0&query=any,contains,' + searchstring; 
             // Create the new tab
@@ -60,7 +60,7 @@ $(document).ready(function () {
         }
          //Filmbib
         if (
-            $('#scholar').is(":checked")) {
+            $('#filmbib').is(":checked")) {
             //alert("Filmbib checked");
             var newScholarURL = 'https://filmbib.no/deepsearch?slang=1621&q=' + searchstring;
             // Create the new tab
